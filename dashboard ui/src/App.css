@@ -1,0 +1,62 @@
+.App {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+/* X-Small devices (portrait phones, less than 576px)
+No media query for `xs` since this is the default in Bootstrap */
+@media (max-width: 500px) {
+  .card-div {
+    display: flex;
+    justify-content: center;
+  }
+
+  .custom-margin{
+    margin:15px;
+  }
+  .outlet {
+    position: static;
+    /* position: static;
+    width: 100%; */
+  }
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 501px) {
+  /* .card-div {
+    padding-left: 20px;
+  } */
+
+  .custom-margin{
+    margin-top: 20px;
+    margin-bottom: 90px;
+  }
+
+  .outlet {
+    position: relative;
+    left: 17vw;
+    width: 83vw;
+    top: 11vh;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 769px) {
+  .card-div{
+    margin-bottom: 90px;
+  }
+  .custom-margin{
+    margin-top: 20px;
+    margin-bottom: 90px;
+  }
+  .outlet {
+    position: relative;
+    left: 16vw;
+    width: 83%;
+    top: 10vh;
+  }
+}

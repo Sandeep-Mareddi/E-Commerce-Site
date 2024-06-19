@@ -1,0 +1,71 @@
+.banner-text {
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+  color: white;
+  font-size: 24px;
+  text-shadow: black 2px 2px;
+}
+
+/* for mobile devices */
+@media (max-width: 500px) {
+  .banner {
+    background-image: url("img1.jpg");
+    background-size: cover;
+    background-position: top;
+    /* width: 100vw !important; */
+    /* position: relative;
+    top: 40px;
+    left: -466px; */
+    /* height: 40vh; */
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    width: 100vw;
+    height: 14vh;
+  }
+  .banner-text{
+    height: 100%;
+  }
+}
+
+/* for tablet */
+@media (min-width: 501px){
+  .banner {
+    background-image: url("img1.jpg");
+    background-size: cover;
+    background-position: top;
+    width: 83.2vw;
+    /* width: 750px; */
+    /* width: 766px; */
+    /* width: 845px; */
+    height: 11vmin;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    left: 16.4vw;
+    top: 0;
+    right: 0;
+    z-index: 1;
+  }
+}
+
+/* for desktop */
+@media (min-width: 768px) {
+  .banner {
+    background-image: url("img1.jpg");
+    background-size: cover;
+    background-position: top;
+    /* width: 100%; */
+    width: 86%;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: fixed;
+    left: 15vw;
+    top: 0;
+    right: 0;
+    z-index: 1;
+  }
+}

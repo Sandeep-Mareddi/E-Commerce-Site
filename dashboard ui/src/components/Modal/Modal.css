@@ -1,0 +1,25 @@
+.modal-subtitle {
+  font-size: 14px;
+  font-weight: regular;
+  color: #5e5e5e;
+}
+
+.modal-title {
+  font-size: 24px;
+  font-weight: regular;
+  color: #333333;
+  padding-bottom: 10px;
+}
+
+.modal-text {
+  font-size: 14px;
+  font-weight: regular;
+  color: #5e5e5e;
+}
+
+.modal-btn {
+  background-color: #568f90;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 12px;
+}

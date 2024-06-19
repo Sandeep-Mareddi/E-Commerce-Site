@@ -1,0 +1,38 @@
+/* for mobile devices */
+@media (max-width: 500px) {
+  .logo {
+    /* width: 100vw;
+    height: 40px; */
+    background-color: #008795;
+    position: static;
+  }
+}
+
+/* for tablet */
+@media (min-width: 501px) {
+  .logo {
+    width: 25vw;
+    height: 11vmin;
+    pointer-events: none;
+    background-color: #008795;
+    position: fixed;
+    left: 0;
+  }
+}
+
+/* for desktop */
+@media (min-width: 768px) {
+  .logo {
+    width: 15vw;
+    height: 10vh;
+    pointer-events: none;
+    background-color: #008795;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+  }
+}
